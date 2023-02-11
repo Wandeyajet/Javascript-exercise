@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Javascript</title>
+</head>
+<body>
+    <h1>
+     SHEGE in Javascript!
+    </h1>
+     <h1>
+    Welcome...
+    </h1>
+</body>
+<script>
+
+   /** let shoppingList = prompt("Enter your shopping list?");
+    alert(shoppingList);
+**/
+
+    let firstName ="Wandey";
+    let lastName = "Ajet";
+
+let numberA = parseInt(prompt("Enter numberA"));
+let numberB = parseInt(prompt("Enter numberB"));
+let usersChoice =prompt("Enter an operation (add,  sub,  mul,  div,  mod)");
+     
+
+ let addition = "add";
+let subtraction ="sub";
+     let multiplication ="mul" ;
+let division ="div";
+let remainder ="mod";
+
+
+/*
+     //alert (typeof diff);
+     if (usersChoice === addition) alert ("addition:" + numberA + numberB);
+        if (usersChoice === subtraction) alert ("diff:" + numberA - numberB);
+         if (usersChoice === mult) alert ("product:" + numberA * numberB); 
+          if (usersChoice === div) alert ("div:" + numberA / numberB);
+   if (usersChoice === remainder) alert ("remainder:" + numberA % numberB);
+
+   then we will ask them if they want to continue
+     * or stop
+     * a. if they enter N, that means end the program
+     * b. if they enter Y, ask them the question
+*/
+
+
+switch (usersChoice) {
+    case addition: 
+    alert(numberA + numberB);
+    break;
+    case subtraction:
+         alert(numberA - numberB);
+    break;
+    case multiplication:
+         alert(numberA * numberB);
+    break;
+    case division:
+         alert(numberA / numberB);
+    break;
+    case remainder:
+         alert(numberA % numberB);
+    break;
+    default:
+        alert("This is not a valid operation!");
+        break;
+     }
+
+let newchoice =  prompt("press Y to continue or press N to stop?");
+let N =alert ("Thank you 😌😌!")
+let Y =alert ("Proceed😎😎...")
+    switch (newchoice) {
+      case Y:  
+   alert(Y);
+   break;
+      case N:  
+   alert(N);
+   break;
+    }
+
+</script>
+</html>
